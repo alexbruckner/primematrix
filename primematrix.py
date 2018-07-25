@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 import sys, os, time
 
 
@@ -38,7 +38,7 @@ if __name__ == "__main__":
 	if timeout > 0:
 		for integer, divisors in enumerate(divisor_list):
 			if integer < 2: continue;
-			os.system('cls');
+			os.system('clear');
 			
 			print integer, divisors	
 			print	
